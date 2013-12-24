@@ -1,4 +1,4 @@
-# LVM (http://www.drbd.org/) 
+# LVM
 
 LVM Management.
 
