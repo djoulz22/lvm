@@ -1,6 +1,6 @@
 {
   "name": "lvm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LVM Interface",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "lvm",
-    "Logical Volume Management"
+    "Logical Volume Manager"
   ],
   "author": {
   	"name": "Julien CHENAVAS",
