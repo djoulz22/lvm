@@ -49,3 +49,4 @@ lvm.events.OnAfterOpen = function(cmd){
 
 lvm.Open();
 ```
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/djoulz22/lvm/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
