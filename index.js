@@ -9,6 +9,14 @@ function Lvm(showlogs){
 	this.showlogs = (showlogs != null) ? showlogs : false;
 	this.nodes = {
 		vgs: {
+		},
+		pvs: {
+		},
+		lvs: {
+		}
+	};
+	this.nodesparams = {
+		vgs: {
 			params: "--separator \":\" | sed -e 's/^[[:space:]]*//'"
 		},
 		pvs: {
@@ -63,7 +71,7 @@ Lvm.prototype = {
 		if (cmd){
 			
 			if (me.showlogs) console.log("[" + cmd + "]");
-			var cmdparams = (params) ? params : me.nodes[cmd].params;
+			var cmdparams = (params) ? params : me.nodesparams[cmd].params;
 			
 			InternalEvents.OnBeforeOpen(cmd);
 			

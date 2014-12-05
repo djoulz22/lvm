@@ -1,6 +1,6 @@
 {
   "name": "lvm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "LVM Interface",
   "main": "index.js",
   "scripts": {
