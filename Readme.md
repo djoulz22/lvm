@@ -2,6 +2,10 @@
 
 LVM Management.
 
+[![NPM](https://nodei.co/npm/lvm.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/lvm/)
+
+[![NPM](https://nodei.co/npm-dl/lvm.png)](https://nodei.co/npm/lvm/)
+
 ## License
 
 ```
